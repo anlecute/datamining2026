@@ -1,0 +1,21 @@
+# Large source and generated datasets
+All_Beauty.jsonl/
+All_Beauty.jsonl.gz
+data/interim/
+data/processed/
+
+# Generated model artifacts
+outputs/figures/
+outputs/metrics/
+.build/
+.chart-data-*/
+.codex-finalizer/
+tmp_docx_preview/
+doc/~$*
+*.pdf
+
+# Local Python files
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
