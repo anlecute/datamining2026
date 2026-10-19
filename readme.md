@@ -1,6 +1,4 @@
-# Tài liệu học và triển khai project phân loại cảm xúc Amazon Reviews
-
-## 1. Tổng quan bài toán
+## 1. Tổng quan
 
 ### 1.1. Bài toán cần giải quyết
 
