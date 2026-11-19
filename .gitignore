@@ -3,6 +3,7 @@ All_Beauty.jsonl/
 All_Beauty.jsonl.gz
 data/interim/
 data/processed/
+src/svm/*.arff
 
 # Generated model artifacts
 outputs/figures/
