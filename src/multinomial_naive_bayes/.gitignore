@@ -1,0 +1,4 @@
+weka-runtime/
+.build/
+*.arff
+*.model

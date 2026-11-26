@@ -1,0 +1,33 @@
+{
+  "status": "complete",
+  "input_file": ".\\amazon_reviews_svm.arff",
+  "model_file": ".\\weka_svm.model",
+  "folds_requested": 10,
+  "folds_completed": 10,
+  "stratified": true,
+  "random_state": 42,
+  "model": "Weka FilteredClassifier(StringToWordVector + LibLINEAR linear SVM)",
+  "evaluation_method": "Loaded saved model hyperparameters; trained a fresh filter and classifier within each fold.",
+  "total_records": 694253,
+  "class_counts": {"Negative":143489,"Neutral":55720,"Positive":495044},
+  "fold_results": [
+    {"fold":1,"fit_seconds":196.372574,"predict_seconds":3.040140,"accuracy":0.88018898,"precision":0.73469271,"recall":0.74898548,"mae":0.14539222,"rmse":0.44334479,"f1_score":0.74122137},
+    {"fold":2,"fit_seconds":193.322398,"predict_seconds":2.859878,"accuracy":0.87831648,"precision":0.72913185,"recall":0.74388579,"mae":0.14746637,"rmse":0.44613010,"f1_score":0.73598736},
+    {"fold":3,"fit_seconds":222.712135,"predict_seconds":2.782848,"accuracy":0.87785556,"precision":0.73179383,"recall":0.74681578,"mae":0.14948290,"rmse":0.45184049,"f1_score":0.73865943},
+    {"fold":4,"fit_seconds":204.609136,"predict_seconds":2.861770,"accuracy":0.87526107,"precision":0.72531600,"recall":0.73931371,"mae":0.15229384,"rmse":0.45541593,"f1_score":0.73174454},
+    {"fold":5,"fit_seconds":179.639218,"predict_seconds":3.186375,"accuracy":0.87837234,"precision":0.73055584,"recall":0.74489970,"mae":0.14792942,"rmse":0.44780905,"f1_score":0.73716794},
+    {"fold":6,"fit_seconds":203.172807,"predict_seconds":3.180956,"accuracy":0.87920778,"precision":0.73241972,"recall":0.74808090,"mae":0.14700756,"rmse":0.44658509,"f1_score":0.73962938},
+    {"fold":7,"fit_seconds":233.698742,"predict_seconds":2.722830,"accuracy":0.87791142,"precision":0.73015581,"recall":0.74496889,"mae":0.14877926,"rmse":0.44962274,"f1_score":0.73701246},
+    {"fold":8,"fit_seconds":244.078143,"predict_seconds":2.959740,"accuracy":0.87863162,"precision":0.73319154,"recall":0.74966549,"mae":0.14800144,"rmse":0.44862853,"f1_score":0.74065379},
+    {"fold":9,"fit_seconds":220.825297,"predict_seconds":2.786486,"accuracy":0.87841556,"precision":0.73012124,"recall":0.74646071,"mae":0.14756932,"rmse":0.44669796,"f1_score":0.73765334},
+    {"fold":10,"fit_seconds":222.907517,"predict_seconds":5.060439,"accuracy":0.87621174,"precision":0.72723502,"recall":0.74184738,"mae":0.15144400,"rmse":0.45470374,"f1_score":0.73396658}
+  ],
+  "metrics_mean": {"accuracy":0.87803725,"precision":0.73046136,"recall":0.74549238,"mae":0.14853663,"rmse":0.44907784,"f1_score":0.73736962},
+  "metrics_std": {"accuracy":0.00140536,"precision":0.00278564,"recall":0.00322619,"mae":0.00206789,"rmse":0.00387295,"f1_score":0.00293964},
+  "fit_seconds_mean":212.133797,
+  "predict_seconds_mean":3.144146,
+  "total_fit_seconds":2121.337967,
+  "total_predict_seconds":31.441462,
+  "remarks": ["Each fold fits StringToWordVector vocabulary and IDF only on that fold's training partition.", "LibLINEAR uses class-balanced costs calculated from each fold's training labels.", "Fit time includes text vectorization and SVM training; prediction time includes test transformation and classification."] ,
+  "elapsed_seconds": 2154.4645552
+}
